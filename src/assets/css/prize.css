@@ -1,0 +1,327 @@
+.eggAll{
+  width: 702px;
+  height: 818px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../../../static/prize/gamebox.png');
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 2%;
+  z-index: 1;
+}
+.eggs{
+  width: 75%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.eggs div{
+  position: relative;
+  width: 33.3333%;
+  height: 256px;
+}
+.eggs div .egg{
+  display: block;
+  width: 140px;
+  height: 166px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0%;
+  z-index: 1;
+}
+.eggs div .seat{
+  display: block;
+  width: 5.375rem;
+  height: 2.84375rem;
+  position: absolute;
+  margin: auto;
+  right: 3%;
+  bottom: 13%;
+  z-index: 0;
+}
+.isDraw{
+  width: 33%!important;
+  display: block;
+  position: absolute;
+  top: -7%;
+  left: 58%;
+  z-index: 4;
+}
+.frames{
+    display: block !important;
+    animation-name: spinnerRotate;
+    animation-duration: 0.35s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes spinnerRotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+
+/*领取*/
+.Receive{
+  width:700px;
+  background: #fff;
+  border-radius: 20px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 19%;
+  z-index: 4;
+}
+.Receive>img{
+	margin-top: -75px;	
+}
+.Receive>p{
+  font-size:20px;
+  color: #666666;
+  text-align: center;
+  margin-top:10px;
+  width: 90%;
+  margin: 0 auto;
+}
+.my{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    align-items: center;
+}
+.my>span{
+	padding-left: 10px;
+	font-size: 26px;
+	color: #666666;
+	font-weight: bold;
+}
+.my>input{
+	padding: 2% 50px;
+	border:none;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	color: #333;
+}
+.selects{display: flex;align-items: center;}
+.select1{
+	width: 60%;
+}
+.selects>span{
+	padding-left: 10px;
+	font-size: 26px;
+	color: #666666;
+	font-weight: bold;
+}
+#provice{
+    padding: 2% 0%;
+    padding-left: 75px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #999;
+}
+#city{
+    padding: 2% 0%;
+    padding-left:7%;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #999;
+}
+#cx{
+  padding: 2% 0%;
+  padding-left: 3%;
+  padding-right: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  color: #999;
+}
+.myaddress>input{
+	padding: 2% 16px;
+}
+.Receive>span{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	color: #9E9E9E;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.buttonTj{
+  display: block;
+  width: 180px;
+  height: 60px;
+  background: #FC4841;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+
+
+.surprised{
+  width: 80%;
+  height: 400px;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 7%;
+  z-index: 5;
+}
+.surprised>img{
+  width: 100%;
+  display: block;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+.prizeInformation{
+  width: 80%;
+  height: 450px;
+  margin: auto;
+  margin-top: -150px;
+  background: #fff;
+  border-radius: 30px;
+  padding-top: 1px;
+}
+.active{
+  height: 400px!important;
+}
+.actives{
+  width: 30%!important;
+}
+.prizeInformation>p{
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 70px;
+}
+.prizeInformation>span{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+.prizeInformation>.shopping{
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+.prizeInformation>.buttonTj{
+  margin-top: 20px;
+}
+
+.lastImgShows{
+  width: 451px;
+  height: 346px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../../../static/prize/name.png');
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+}
+.lastImgShows .buttons{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 72%;
+  width: 55%;
+  height: 50px;
+  cursor: pointer;
+}
+.lastImgShows p{
+  width: 100%;
+  text-align: center;
+  color: #FF6F15;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 37%;
+}
+.close{
+  width: 10%;
+  height: 30px;
+  position: absolute;
+  top: -9%;
+  right: 2%;
+  cursor: pointer;
+}
+.prizeurlnum{
+    width: 13%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;  
+}
+
+
+
+.shopImgback{
+  width: 100%;
+  height: 571px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../../../static/prize/shopImgback.png');
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+}
+.shopImgback img{
+  width: 39%;
+  display: block;
+  position: absolute;
+  left: 2%;
+  top: 7%;
+  /* bottom: 0; */
+  margin: auto;
+}
+
+
+.zIndex{
+  z-index: 1;
+}

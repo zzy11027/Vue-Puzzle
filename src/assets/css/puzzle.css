@@ -1,0 +1,169 @@
+.prizeAll{
+  width: 702px;
+  height: 818px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../../../static/prize/gamebox.png');
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.box{
+  width: 480px;
+  position: absolute;
+  margin:auto;
+  left: 0%;
+  right: 0%;  
+  top: 25%;
+  display: flex;
+}
+.puzzle-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.puzzle-wrap li{
+  text-align: center;
+  width: 160px;
+  /*width: 20%;*/
+  /*width: 25%;*/
+}
+.minWidth{
+  width: 120px!important;
+}
+.maxWidth{
+  width: 96px!important;
+}
+.puzzle-empty{
+  background: #fff!important;
+}
+.time{
+  width: 5.0625rem;
+  height: 1.28125rem;
+  background-image: url(../../../static/prize/Countdown.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+}
+.time span{
+  position: absolute;
+  top: 30%;
+  left: 105%;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.love{
+  width: 616px;
+  height: 230px;
+  background-image: url(../../../static/prize/introduce.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  /*bottom: 9%;*/
+  top: 818px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.loveLeft{
+  width: 25%;
+  display: block;
+  margin-left: 7%;
+}
+.loveImg{
+  width: 55%;
+  display: block;
+  margin-left: 7%;
+}
+.lastImg{
+  width: 77%;
+  height: 1.625rem;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  /*bottom: 3%;*/
+  top: 1060px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.lastImg img{
+  width: 35%;
+  cursor: pointer;
+}
+.NextPass{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  height: 303px;
+  background-image: url(../../../static/prize/NextPass.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.NextPass p{
+  width: 100%;
+  text-align: center;
+  color: #FF6F15;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 37%;
+}
+.NextPass .buttons{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 72%;
+  width: 55%;
+  height: 50px;
+  cursor: pointer;
+}
+.lastImgShow{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  height: 303px;
+  background-image: url(../../../static/prize/lastImgShow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.lastImgShow p{
+  width: 100%;
+  text-align: center;
+  color: #FF6F15;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 37%;
+}
+.lastImgShow .buttons{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 72%;
+  width: 55%;
+  height: 50px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.bg{
+  width: 100%;
+  max-width: 750.1px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('../../../static/prize/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+.bg>img{
+    position: absolute;
+}
+.cloud{
+    top: 5%;
+    left: 0%;
+}
+.bubble{
+    top: 30%;
+    left: 0%;
+}
+.car{
+    bottom: 0%;
+    right: 0%;
+}

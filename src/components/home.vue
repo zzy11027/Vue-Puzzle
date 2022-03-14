@@ -1,11 +1,14 @@
 <template>
     <div>
-        <div class="rule">
+        <!-- <div class="rule">
             <img src="../../static/prize/Rulecontent.png" alt="" class="Rulecontent">
             <router-link to="/puzzleM/dist/puzzle"  class="stargame">
                 <img src="../../static/prize/startGame.png" alt="" class="startGame">
             </router-link>
-        </div>
+        </div> -->
+            <router-link to="/puzzleM/dist/puzzle"  class="stargame animate__pulse">
+                <img src="../../static/prize/startGame.png" alt="" class="startGame ">
+            </router-link>
         <Bg />
     </div>
 </template>
@@ -64,6 +67,10 @@ import Bg from '@/common/isbg'
     margin:auto;
     left: 0;
     right: 0;
-    bottom: 10%;
+    bottom: 23%;
+    z-index: 9999999999;
+    animation-iteration-count:infinite;
+    animation-fill-mode:both;
+    animation-duration:1.5s;animation-delay:0s;
 }
 </style>

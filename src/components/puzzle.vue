@@ -22,7 +22,7 @@
   </div>
   <div class="lastImg" >
     <img src="../../static/prize/lastImg.png" alt="" @click="last()">
-    <img src="../../static/prize/goPrize.png" alt=""  @click="goPrize()">
+    <!-- <img src="../../static/prize/goPrize.png" alt=""  @click="goPrize()"> -->
   </div>
   <div class="NextPass" v-show="Congratulations">
     <p ref="prizeWord">恭喜您进入下一关！</p>

@@ -1,9 +1,9 @@
-.prizeAll{
+.prizeAll {
   width: 702px;
   height: 818px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url('../../../static/prize/gamebox.png');
+  background-image: url("../../../static/prize/gamebox.png");
   position: absolute;
   margin: auto;
   left: 0;
@@ -11,35 +11,35 @@
   top: 0;
   z-index: 1;
 }
-.box{
+.box {
   width: 480px;
   position: absolute;
-  margin:auto;
+  margin: auto;
   left: 0%;
-  right: 0%;  
+  right: 0%;
   top: 25%;
   display: flex;
 }
-.puzzle-wrap{
+.puzzle-wrap {
   display: flex;
   flex-wrap: wrap;
 }
-.puzzle-wrap li{
+.puzzle-wrap li {
   text-align: center;
   width: 160px;
   /*width: 20%;*/
   /*width: 25%;*/
 }
-.minWidth{
-  width: 120px!important;
+.minWidth {
+  width: 120px !important;
 }
-.maxWidth{
-  width: 96px!important;
+.maxWidth {
+  width: 96px !important;
 }
-.puzzle-empty{
-  background: #fff!important;
+.puzzle-empty {
+  background: #fff !important;
 }
-.time{
+.time {
   width: 5.0625rem;
   height: 1.28125rem;
   background-image: url(../../../static/prize/Countdown.png);
@@ -51,7 +51,7 @@
   left: 0;
   right: 0;
 }
-.time span{
+.time span {
   position: absolute;
   top: 30%;
   left: 105%;
@@ -59,7 +59,7 @@
   font-weight: bold;
   color: red;
 }
-.love{
+.love {
   width: 616px;
   height: 230px;
   background-image: url(../../../static/prize/introduce.png);
@@ -75,17 +75,17 @@
   display: flex;
   align-items: center;
 }
-.loveLeft{
+.loveLeft {
   width: 25%;
   display: block;
   margin-left: 7%;
 }
-.loveImg{
+.loveImg {
   width: 55%;
   display: block;
   margin-left: 7%;
 }
-.lastImg{
+.lastImg {
   width: 77%;
   height: 1.625rem;
   position: absolute;
@@ -99,11 +99,12 @@
   align-items: center;
   z-index: 1;
 }
-.lastImg img{
+.lastImg img {
   width: 35%;
   cursor: pointer;
+  margin: 0 auto;
 }
-.NextPass{
+.NextPass {
   position: fixed;
   margin: auto;
   left: 0;
@@ -117,15 +118,15 @@
   background-repeat: no-repeat;
   z-index: 2;
 }
-.NextPass p{
+.NextPass p {
   width: 100%;
   text-align: center;
-  color: #FF6F15;
+  color: #ff6f15;
   font-weight: bold;
   font-size: 24px;
   margin-top: 37%;
 }
-.NextPass .buttons{
+.NextPass .buttons {
   position: absolute;
   margin: auto;
   left: 0;
@@ -135,7 +136,7 @@
   height: 50px;
   cursor: pointer;
 }
-.lastImgShow{
+.lastImgShow {
   position: fixed;
   margin: auto;
   left: 0;
@@ -149,15 +150,15 @@
   background-repeat: no-repeat;
   z-index: 2;
 }
-.lastImgShow p{
+.lastImgShow p {
   width: 100%;
   text-align: center;
-  color: #FF6F15;
+  color: #ff6f15;
   font-weight: bold;
   font-size: 14px;
   margin-top: 37%;
 }
-.lastImgShow .buttons{
+.lastImgShow .buttons {
   position: absolute;
   margin: auto;
   left: 0;

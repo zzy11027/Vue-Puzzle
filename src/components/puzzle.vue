@@ -65,8 +65,9 @@ export default {
       this.time--;
       if(this.time <= 0){
         clearInterval(this.settime);
-        this.lastImgShow = true;
-        this.isShow = true;
+            alert('时间到啦~~~')
+        // this.lastImgShow = true;
+        // this.isShow = true;
         // this.$router.push({
         //   path: '/prize',
         //   name: 'prize',
@@ -99,8 +100,9 @@ export default {
           this.time--;
           if(this.time <= 0){
             clearInterval(this.settime);
-            this.lastImgShow = true;
-            this.isShow = true;
+            // this.lastImgShow = true;
+            // this.isShow = true;
+            alert('时间到啦~~~')
           }
         },1500)
       }else if(this.Checkpoint == 3){
@@ -110,8 +112,9 @@ export default {
           this.time--;
           if(this.time <= 0){
             clearInterval(this.settime);
-            this.lastImgShow = true;
-            this.isShow = true;
+            // this.lastImgShow = true;
+            // this.isShow = true;
+            alert('时间到啦~~~')
           }
         },1500)
       }

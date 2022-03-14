@@ -30,7 +30,7 @@ const routes = [
 ];
 
 export default new Router({
-  mode: "history",
+  mode: "hash",
   // base:"/dist",
   routes,
   linkActiveClass: "active"

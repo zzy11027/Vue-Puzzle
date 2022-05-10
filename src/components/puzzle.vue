@@ -66,6 +66,10 @@ export default {
       if(this.time <= 0){
         clearInterval(this.settime);
             alert('时间到啦~~~')
+
+
+
+            
         // this.lastImgShow = true;
         // this.isShow = true;
         // this.$router.push({
